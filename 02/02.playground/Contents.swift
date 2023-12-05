@@ -50,5 +50,5 @@ class AOC {
     }
 }
 
-AOC().result("test") // return 8
+AOC().result("test") // return 8, 2286
 AOC().result("input") // 2771, 70924
