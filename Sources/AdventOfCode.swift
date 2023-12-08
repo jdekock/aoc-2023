@@ -60,13 +60,13 @@ struct AdventOfCode: AsyncParsableCommand {
 
   func run() async throws {
     let challenge = try selectedChallenge
-    print("Executing Advent of Code challenge \(challenge.day)...")
+    print("\n🎄 Advent of Code 🎄\n--- Day \(challenge.day) ---\n")
 
     let timing1 = await run(part: challenge.part1, named: "Part 1")
     let timing2 = await run(part: challenge.part2, named: "Part 2")
 
     if benchmark {
-      print("Part 1 took \(timing1), part 2 took \(timing2).")
+      print("Execution time Part 1: \(timing1)\nExecution time Part 2: \(timing2).\n")
       #if DEBUG
         print("Looks like you're benchmarking debug code. Try swift run -c release")
       #endif
