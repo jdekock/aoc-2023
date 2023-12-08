@@ -1,4 +1,4 @@
-# aoc-2023
+# Advent of Code 2023
 
 [![Language](https://img.shields.io/badge/language-Swift-red.svg)](https://swift.org)
 
